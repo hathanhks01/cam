@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded corners -->
+  <rect width="512" height="512" rx="115" fill="url(#bg)"/>
+  <!-- Camera Body -->
+  <rect x="76" y="156" width="360" height="240" rx="40" fill="#334155" stroke="url(#grad)" stroke-width="14"/>
+  <!-- Top prism/viewfinder -->
+  <path d="M196 156 L226 100 L286 100 L316 156 Z" fill="url(#grad)"/>
+  <!-- Flash / Red dot -->
+  <circle cx="130" cy="205" r="16" fill="#ef4444"/>
+  <!-- Big Lens Outer Ring -->
+  <circle cx="256" cy="276" r="82" fill="#1e293b" stroke="url(#grad)" stroke-width="16"/>
+  <!-- Lens Inner Elements -->
+  <circle cx="256" cy="276" r="54" fill="#0f172a" stroke="#64748b" stroke-width="8"/>
+  <circle cx="256" cy="276" r="28" fill="#0284c7" opacity="0.8"/>
+  <!-- Lens Flare -->
+  <circle cx="240" cy="260" r="10" fill="#ffffff" opacity="0.6"/>
+</svg>
+
